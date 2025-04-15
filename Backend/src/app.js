@@ -1,7 +1,7 @@
 const express = require('express');
 const aiRoutes = require('./routes/ai.routes')
 
-const app = express()
+const app = express();
 
 app.get('/', (req,res) => {
     res.send('Hello World')
